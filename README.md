@@ -32,7 +32,13 @@ If the API key is saved in the file `./api-key.txt` it will be ignored by git.
 cargo run server --database-url $DATABASE_URL --repo-url https://gitlab.dbc.dk/me/my-deployment --grouping-key host_group_name --api-key-file ./api-key.txt --columns "loc" 
 ```
 
+run activation logger:
+```
+./target/debug/hostmap activation-logger --url-path /hostmap/hostmap-activation-logs.csv --activation-log-file /var/log/hostmap-activation-logs/hostmap-activation-logs.csv --server-ip 0.0.0.0 --port 9488
+```
+
 run scraper:
 ```
-cargo run scraper --host-group-file ./test-assets/minimalTargetList.json --scrape-interval 5
+cargo run scraper --hosts-file ./test-assets/minimalTargetList.json --scrape-interval 5 --activation-logger-port 9488 --api-key-file ./api-key.txt
 ```
+

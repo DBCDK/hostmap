@@ -171,7 +171,7 @@ pub async fn run(
             )
         });
 
-    tracing::info!("Starting server at http://{}", &bind_addr);
+    tracing::info!("Starting hostmap overview server at http://{}", &bind_addr);
 
     axum::serve(listener, router.into_make_service())
         .with_graceful_shutdown(async {
