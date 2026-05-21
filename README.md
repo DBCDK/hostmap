@@ -112,7 +112,7 @@ For the server to run in development we need a git repository and an API key. Th
 If the API key is saved in the file `./api-key.txt` it will be ignored by git.
 
 ```
-cargo run server --database-url $DATABASE_URL --repo-url https://gitlab.dbc.dk/me/my-deployment --grouping-key host_group_name --api-key-file ./api-key.txt --columns "loc" 
+cargo run server --database-url $DATABASE_URL --repo-url https://somegit.myServer.dk/me/my-deployment --grouping-key host_group_name --api-key-file ./api-key.txt --columns "loc" 
 ```
 
 run activation logger:
