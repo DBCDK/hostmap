@@ -1,20 +1,20 @@
 /target
-/pg
 /.env
 /.pre-commit-config.yaml
 /result
 /setup.sh
 
-# Dev dir's
+# PG stuff
+/pg
 /postgres.log
 /.dev_postgres
+/scratch.sql
 
 # ide's
 /.idea
 /.vscode
 
 # Temps
-/scratch.sql
 /api-key.txt
 /test-assets/
 todo.md
