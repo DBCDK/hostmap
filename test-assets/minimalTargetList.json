@@ -1,25 +1,25 @@
 [
   {
-    "hostname": "hosts-p01",
-    "host_url": "hosts-p01.pzz.dk",
+    "hostname": "gitlab-t01",
+    "host_url": "gitlab-t01.pzz.dk",
     "metadata": {
-      "env": "prod",
+      "env": "stg",
       "host_group_name": "hosts-prod"
     }
   },
   {
-    "hostname": "hosts-p02",
-    "host_url": "hosts-p02.pzz.dk",
+    "hostname": "gitlab-p01",
+    "host_url": "gitlab-p01.pzz.dk",
     "metadata": {
-      "env": "prod",
+      "env": "stg",
       "host_group_name": "hosts-prod"
     }
   },
   {
-    "hostname": "hosts-p03",
-    "host_url": "hosts-p03.pzz.dk",
+    "hostname": "localhost",
+    "host_url": "localhost",
     "metadata": {
-      "env": "test",
+      "env": "stg",
       "host_group_name": "hosts-prod"
     }
   }
