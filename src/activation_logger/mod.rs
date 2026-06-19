@@ -23,7 +23,7 @@ pub(crate) async fn run(
     }: ActivationLoggerArgs,
 ) {
     let bind_addr = format!("{}:{}", server_ip, port);
-    tracing::info!("Starting server at http://{}", &bind_addr);
+    tracing::info!("Starting activation-logger server at http://{}", &bind_addr);
     tracing::info!(
         "Serving csv log file, {:?}, at http://{}{}",
         &activation_log_file.clone(),

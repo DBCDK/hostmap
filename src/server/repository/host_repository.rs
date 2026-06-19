@@ -80,6 +80,7 @@ SELECT
 DISTINCT ON (ac.hostname)
 ac.activation_id, ac.activated_at, ac.username, ac.store_path, ac.activation_type, ac.hostname
 FROM activation ac
+     where ac.activation_type != 'dry-activate'
      ORDER BY ac.hostname, ac.activated_at DESC
 )
 SELECT DISTINCT ON(l.hostname) l.activation_id, l.activated_at, l.username,

@@ -1,13 +1,24 @@
 /target
-/pg
 /.env
-/postgres.log
 /.pre-commit-config.yaml
 /result
-/.dev_postgres
 /setup.sh
-/.vscode
+
+# PG stuff
+/pg
+/postgres.log
+/.dev_postgres
 /scratch.sql
+
+# ide's
+/.idea
+/.vscode
+
+# Temps
 /api-key.txt
 /test-assets/
 todo.md
+
+# direnv
+.direnv/*
+

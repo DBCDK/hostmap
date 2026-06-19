@@ -22,5 +22,13 @@
       "env": "test",
       "host_group_name": "hosts-prod"
     }
+  },
+  {
+    "hostname": "localhost",
+    "host_url": "localhost",
+    "metadata": {
+      "env": "stg",
+      "host_group_name": "hosts-prod"
+    }
   }
 ]
