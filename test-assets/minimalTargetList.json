@@ -1,17 +1,25 @@
 [
   {
-    "hostname": "git-host-t01",
-    "host_url": "git-host-t01.my-domain.dk",
+    "hostname": "hosts-p01",
+    "host_url": "hosts-p01.pzz.dk",
     "metadata": {
-      "env": "stg",
+      "env": "prod",
       "host_group_name": "hosts-prod"
     }
   },
   {
-    "hostname": "git-host-p01",
-    "host_url": "git-host-p01.my-domain.dk",
+    "hostname": "hosts-p02",
+    "host_url": "hosts-p02.pzz.dk",
     "metadata": {
-      "env": "stg",
+      "env": "prod",
+      "host_group_name": "hosts-prod"
+    }
+  },
+  {
+    "hostname": "hosts-p03",
+    "host_url": "hosts-p03.pzz.dk",
+    "metadata": {
+      "env": "test",
       "host_group_name": "hosts-prod"
     }
   },
