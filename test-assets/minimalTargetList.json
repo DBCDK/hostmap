@@ -1,15 +1,15 @@
 [
   {
-    "hostname": "gitlab-t01",
-    "host_url": "gitlab-t01.pzz.dk",
+    "hostname": "git-host-t01",
+    "host_url": "git-host-t01.my-domain.dk",
     "metadata": {
       "env": "stg",
       "host_group_name": "hosts-prod"
     }
   },
   {
-    "hostname": "gitlab-p01",
-    "host_url": "gitlab-p01.pzz.dk",
+    "hostname": "git-host-p01",
+    "host_url": "git-host-p01.my-domain.dk",
     "metadata": {
       "env": "stg",
       "host_group_name": "hosts-prod"
